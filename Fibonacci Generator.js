@@ -7,7 +7,7 @@ function fibonacciGenerator (n) {
       output.push(firstNumber + secondNumber);
     }
 
-    return output.slice(0,n);
+    return output.slice(0,n); // Just in case n is less than 2
 }
 
 fibonacciGenerator(7);
